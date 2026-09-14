@@ -6,10 +6,17 @@
 /out-tsc
 /bazel-out
 
-# Node
+# Node & Package Managers
 /node_modules
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
 
 # IDEs and editors
 .idea/
@@ -39,4 +46,12 @@ testem.log
 
 # System files
 .DS_Store
+.DS_Store?
+._*
 Thumbs.db
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/blob-report/

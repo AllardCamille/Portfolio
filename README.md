@@ -1,59 +1,116 @@
-# Dashboard
+# Portfolio — Camille Allard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+Personal web portfolio built with Angular 19, showcasing my skills, professional background, and projects as an Application Developer.
+
+## 🛠️ Tech Stack
+
+* **Framework:** Angular 19
+* **Languages:** TypeScript, HTML5, CSS3
+* **Third-Party Services:** EmailJS (contact form integration)
+* **Unit Testing:** Jasmine & Karma
+* **E2E Testing:** Playwright
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* Node.js (LTS version recommended)
+* Angular CLI v19
+
+### Installation
+
+```bash
+npm install
+```
 
 ## Development server
-
-To start a local development server, run:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Run the local development server at `http://localhost:4200/`.
 
-## Code scaffolding
+## Testing
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Unit tests (Jasmine/Karma)
+Run component unit tests:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### E2E Tests (Playwright)
+Run end-to-end tests:
 
 ```bash
-ng e2e
+npx playwright test
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+To launch Playwright's interactive UI mode:
 
-## Additional Resources
+```bash
+npx playwright test --ui
+```
+## Production build
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Compile and optimize the project for production (dist/ folder):
+
+# Portfolio — Camille Allard
+
+Personal web portfolio built with Angular 19, showcasing my skills, professional background, and projects as an Application Developer.
+
+## 🛠️ Tech Stack
+
+* **Framework:** Angular 19
+* **Languages:** TypeScript, HTML5, CSS3
+* **Third-Party Services:** EmailJS (contact form integration)
+* **Unit Testing:** Jasmine & Karma
+* **E2E Testing:** Playwright
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* Node.js (LTS version recommended)
+* Angular CLI v19
+
+### Installation
+
+```bash
+npm install
+```
+
+## Development server
+
+``` bash
+ng serve
+```
+
+Run the local development server at `http://localhost:4200/`.
+
+## Testing
+
+### Unit tests (Jasmine/Karma)
+Run component unit tests :
+
+```bash
+ng test
+```
+
+### E2E Tests (Playwright)
+Run end-to-end tests :
+
+```bash
+npx playwright test
+```
+
+## Production build
+
+To launch Playwright's interactive UI mode :
+
+```bash
+ng build
+```

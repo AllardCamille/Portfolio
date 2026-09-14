@@ -1,0 +1,13 @@
+.glow-bg {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(30, 58, 138, 0.08) 0%, rgba(30, 58, 138, 0) 70%);
+  pointer-events: none;
+  z-index: -1;
+  border-radius: 50%;
+}
